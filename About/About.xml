@@ -10,7 +10,7 @@
 	</supportedVersions>
 	<packageId>CETeam.CombatExtendedMelee</packageId>		
 	<url>https://github.com/CombatExtended-Continued/CombatExtendedMelee</url>
-	<description>Version: 1.3.1.2\n\nAdds several new melee weapons to take advantage of CE mechanics.</description>
+	<description>Version: 1.3.1.3\n\nAdds several new melee weapons to take advantage of CE mechanics.</description>
 	<modDependencies>	
 	<li>
         <packageId>CETeam.CombatExtended</packageId>
