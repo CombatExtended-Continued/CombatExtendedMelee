@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedPoweredMeleeWeapon</defName>
+    <label>unfinished powered melee weapon</label>
+    <description>An unfinished powered melee weapon.</description>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedWeapon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories Inherit="false" />
+  </ThingDef>
+
   <ThingDef Name="BaseMeleeWeapon_CE" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
@@ -83,6 +94,7 @@
     </weaponTags>
     <recipeMaker>
       <researchPrerequisite>CE_PoweredMelee</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedPoweredMeleeWeapon</unfinishedThingDef>
       <recipeUsers Inherit="false">
         <li>FabricationBench</li>
       </recipeUsers>
@@ -104,7 +116,7 @@
     <graphicData>
       <texPath>Things/Weapons/Maul</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -124,6 +136,17 @@
     </stuffCategories>
     <tools>
       <li Class="CombatExtended.ToolCE">
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.8</cooldownTime>
+        <chanceFactor>0.10</chanceFactor>
+        <armorPenetrationBlunt>1.25</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
         <label>head</label>
         <capacities>
           <li>Blunt</li>
@@ -140,8 +163,9 @@
       <MeleeDodgeChance>0.3</MeleeDodgeChance>
     </equippedStatOffsets>
     <recipeMaker>
+      <researchPrerequisite>LongBlades</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
     <thingSetMakerTags>
@@ -167,7 +191,7 @@
     <graphicData>
       <texPath>Things/Weapons/Zweihander</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -254,7 +278,7 @@
     <graphicData>
       <texPath>Things/Weapons/Halberd</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
@@ -310,7 +334,7 @@
     <recipeMaker>
       <researchPrerequisite>LongBlades</researchPrerequisite>
       <skillRequirements>
-        <Crafting>5</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
     <equippedStatOffsets>
@@ -500,6 +524,17 @@
       <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.85</cooldownTime>
+        <chanceFactor>0.10</chanceFactor>
+        <armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+      </li>
       <li Class="CombatExtended.ToolCE">
         <label>head</label>
         <capacities>
