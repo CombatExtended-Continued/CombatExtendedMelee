@@ -12,15 +12,15 @@
     <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Combat" or kindDef="Settlement"]/options
       | Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/guards</xpath>
     <value>
-      <Mercenary_SlasherElite>3</Mercenary_SlasherElite>
+      <CE_Mercenary_SlasherElite>3</CE_Mercenary_SlasherElite>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/FactionDef[defName="Pirate"]/pawnGroupMakers/li/options[Mercenary_Slasher]</xpath>
     <value>
-      <Mercenary_SlasherElite>3</Mercenary_SlasherElite>
-      <PirateSlasherBoss>2</PirateSlasherBoss>
+      <CE_Mercenary_SlasherElite>3</CE_Mercenary_SlasherElite>
+      <CE_PirateSlasherBoss>2</CE_PirateSlasherBoss>
     </value>
   </Operation>
 

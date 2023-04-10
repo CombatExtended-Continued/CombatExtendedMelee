@@ -16,7 +16,7 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="EliteSlasherBase">
-    <defName>PirateSlasherBoss</defName>
+    <defName>CE_PirateSlasherBoss</defName>
     <label>slasher boss</label>
     <labelPlural>slasher bosses</labelPlural>
     <factionLeader>true</factionLeader>
@@ -36,7 +36,7 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="EliteSlasherBase">
-    <defName>Mercenary_SlasherElite</defName>
+    <defName>CE_Mercenary_SlasherElite</defName>
     <label>slasher elite mercenary</label>
     <labelPlural>slasher elite mercenaries</labelPlural>
     <inventoryOptions>
