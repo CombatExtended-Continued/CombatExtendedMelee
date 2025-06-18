@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>CE_PoweredMelee</defName>
+		<label>powered melee weapons</label>
+		<description>Allows production of advanced melee weaponry, craftable at the fabrication bench.</description>
+		<baseCost>2500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<researchViewX>15</researchViewX>
+		<researchViewY>5.4</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
