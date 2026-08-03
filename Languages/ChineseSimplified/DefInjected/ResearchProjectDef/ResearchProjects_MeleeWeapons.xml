@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: powered melee weapons -->
+	<CE_PoweredMelee.label>动力近战武器</CE_PoweredMelee.label>
+	<!-- EN: Allows production of advanced melee weaponry, craftable at the fabrication bench. -->
+	<CE_PoweredMelee.description>允许在精密制造台生产先进的动力近战武器。</CE_PoweredMelee.description>
+
+</LanguageData>

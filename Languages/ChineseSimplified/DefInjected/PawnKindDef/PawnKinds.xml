@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: slasher boss -->
+	<CE_PirateSlasherBoss.label>刀锋头目</CE_PirateSlasherBoss.label>
+	<!-- EN: slasher bosses -->
+	<CE_PirateSlasherBoss.labelPlural>刀锋头目</CE_PirateSlasherBoss.labelPlural>
+
+	<!-- EN: slasher elite mercenary -->
+	<CE_Mercenary_SlasherElite.label>精英刀锋雇佣兵</CE_Mercenary_SlasherElite.label>
+	<!-- EN: slasher elite mercenaries -->
+	<CE_Mercenary_SlasherElite.labelPlural>精英刀锋雇佣兵</CE_Mercenary_SlasherElite.labelPlural>
+
+</LanguageData>
