@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: unfinished powered melee weapon -->
+	<UnfinishedPoweredMeleeWeapon.label>未完成的动力近战武器</UnfinishedPoweredMeleeWeapon.label>
+	<!-- EN: An unfinished powered melee weapon. -->
+	<UnfinishedPoweredMeleeWeapon.description>一件尚未完工的动力近战武器。</UnfinishedPoweredMeleeWeapon.description>
+
+	<!-- EN: maul -->
+	<CE_Melee_Maul.label>双手战锤</CE_Melee_Maul.label>
+	<!-- EN: A heavy, two-handed hammer. Difficult to wield, but the heavy impact allows it to injure people behind armor. -->
+	<CE_Melee_Maul.description>一柄沉重的双手战锤。虽然难以挥舞，但势大力沉的冲击足以隔着护甲重创敌人。</CE_Melee_Maul.description>
+	<!-- EN: handle -->
+	<CE_Melee_Maul.tools.handle.label>锤柄</CE_Melee_Maul.tools.handle.label>
+	<!-- EN: head -->
+	<CE_Melee_Maul.tools.head.label>锤头</CE_Melee_Maul.tools.head.label>
+
+	<!-- EN: zweihander -->
+	<CE_Melee_Zweihander.label>双手大剑</CE_Melee_Zweihander.label>
+	<!-- EN: A large sword designed for two-handed use. Unwieldy for a sword, but one blow can cut a man in half. -->
+	<CE_Melee_Zweihander.description>一柄专为双手持握而打造的大剑。相较一般刀剑颇为笨重，但势大力沉的一击足以将人一分为二。</CE_Melee_Zweihander.description>
+	<!-- EN: handle -->
+	<CE_Melee_Zweihander.tools.handle.label>剑柄</CE_Melee_Zweihander.tools.handle.label>
+	<!-- EN: point -->
+	<CE_Melee_Zweihander.tools.point.label>剑尖</CE_Melee_Zweihander.tools.point.label>
+	<!-- EN: edge -->
+	<CE_Melee_Zweihander.tools.edge.label>剑刃</CE_Melee_Zweihander.tools.edge.label>
+
+	<!-- EN: halberd -->
+	<CE_Melee_Halberd.label>长戟</CE_Melee_Halberd.label>
+	<!-- EN: A medieval, bladed polearm, suited for chopping and thrusting, with a hook for binding enemy weapons. -->
+	<CE_Melee_Halberd.description>一种中世纪的刃式长柄武器，既可劈砍，也可突刺，其背钩还能钩住并牵制敌方武器。</CE_Melee_Halberd.description>
+	<!-- EN: shaft -->
+	<CE_Melee_Halberd.tools.shaft.label>杆身</CE_Melee_Halberd.tools.shaft.label>
+	<!-- EN: edge -->
+	<CE_Melee_Halberd.tools.edge.label>斧刃</CE_Melee_Halberd.tools.edge.label>
+	<!-- EN: point -->
+	<CE_Melee_Halberd.tools.point.label>枪尖</CE_Melee_Halberd.tools.point.label>
+
+	<!-- EN: powered mace -->
+	<CE_Melee_PoweredMace.label>动力钉头锤</CE_Melee_PoweredMace.label>
+	<!-- EN: Advanced impact weapon typically used by Glitterworld assault troops in combination with a shield. The head is coated in a field of ionized plasma, lowering the impact resistance of enemy armor. -->
+	<CE_Melee_PoweredMace.description>一种先进的冲击武器，通常由闪耀世界突击部队搭配盾牌使用。锤头笼罩在电离等离子体场中，可削弱敌方护甲的抗冲击能力。</CE_Melee_PoweredMace.description>
+	<!-- EN: handle -->
+	<CE_Melee_PoweredMace.tools.handle.label>锤柄</CE_Melee_PoweredMace.tools.handle.label>
+	<!-- EN: head -->
+	<CE_Melee_PoweredMace.tools.head.label>锤头</CE_Melee_PoweredMace.tools.head.label>
+
+	<!-- EN: powered short sword -->
+	<CE_Melee_PoweredShortsword.label>动力短剑</CE_Melee_PoweredShortsword.label>
+	<!-- EN: A highly-advanced short sword. Commonly used by Glitterworld assault troops, the blade is coated in a field of ionized plasma, helping it cut through enemy armor. -->
+	<CE_Melee_PoweredShortsword.description>一种高度先进的短剑，常见于闪耀世界突击部队。剑刃笼罩在电离等离子体场中，使其更易切开敌方护甲。</CE_Melee_PoweredShortsword.description>
+	<!-- EN: handle -->
+	<CE_Melee_PoweredShortsword.tools.handle.label>剑柄</CE_Melee_PoweredShortsword.tools.handle.label>
+	<!-- EN: point -->
+	<CE_Melee_PoweredShortsword.tools.point.label>剑尖</CE_Melee_PoweredShortsword.tools.point.label>
+	<!-- EN: edge -->
+	<CE_Melee_PoweredShortsword.tools.edge.label>剑刃</CE_Melee_PoweredShortsword.tools.edge.label>
+
+	<!-- EN: powered maul -->
+	<CE_Melee_PoweredMaul.label>动力双手战锤</CE_Melee_PoweredMaul.label>
+	<!-- EN: A heavy two-handed impact weapon commonly used by Glitterworld assault teams in urban breaching. The hammer's blow delivers a wave of ionized plasma into the target, devastating any armor in its way. -->
+	<CE_Melee_PoweredMaul.description>一种沉重的双手冲击武器，常由闪耀世界突击小队用于城市破障作战。每次锤击都会向目标注入一股电离等离子体，将挡在前方的护甲尽数摧毁。</CE_Melee_PoweredMaul.description>
+	<!-- EN: handle -->
+	<CE_Melee_PoweredMaul.tools.handle.label>锤柄</CE_Melee_PoweredMaul.tools.handle.label>
+	<!-- EN: head -->
+	<CE_Melee_PoweredMaul.tools.head.label>锤头</CE_Melee_PoweredMaul.tools.head.label>
+
+	<!-- EN: wraith blade -->
+	<CE_Melee_WraithBlade.label>怨灵之刃</CE_Melee_WraithBlade.label>
+	<!-- EN: Highly advanced melee weapon. When active it emits a constant stream of ionized plasma that can cut through almost any armor. It's otherworldly appearance earned it the moniker and inspired many folktales. -->
+	<CE_Melee_WraithBlade.description>一种高度先进的近战武器。启动后，它会持续释放电离等离子体流，几乎能切开任何护甲。鬼魅般的外形使它得名，也催生了无数民间传说。</CE_Melee_WraithBlade.description>
+	<!-- EN: handle -->
+	<CE_Melee_WraithBlade.tools.handle.label>剑柄</CE_Melee_WraithBlade.tools.handle.label>
+	<!-- EN: point -->
+	<CE_Melee_WraithBlade.tools.point.label>剑尖</CE_Melee_WraithBlade.tools.point.label>
+	<!-- EN: edge -->
+	<CE_Melee_WraithBlade.tools.edge.label>剑刃</CE_Melee_WraithBlade.tools.edge.label>
+
+</LanguageData>
